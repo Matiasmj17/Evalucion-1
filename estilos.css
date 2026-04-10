@@ -9,7 +9,7 @@
     padding: 0;
     overflow: auto;
     width: 100%;
-    background-color: cyan;
+    background-color: blue;
     position: fixed;
     display: flex;
     justify-content: center;
@@ -24,6 +24,8 @@
     color: black;
     display: inline-block;
     text-align: center;
+    font-size: 1.25rem;
+    font-weight: 750;
     transition: transform 0.25s;
 }
 
