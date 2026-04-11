@@ -2,17 +2,32 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    color: white
 }
+
+header{
+    text-align: center;
+}
+
+body{
+    padding-top: 70px;
+    background-color: #1A1A2E;
+}
+
 .nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: auto;
     width: 100%;
-    background-color: blue;
+    background-color: #FF6666;
     position: fixed;
     display: flex;
     justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 .nav li{
     float: none;
@@ -32,4 +47,8 @@
 .link:hover{
     color: black;
     transform: translateY(-2px);
+}
+
+.ofertas{
+    
 }
