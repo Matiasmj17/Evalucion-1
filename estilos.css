@@ -6,6 +6,13 @@
     color: white
 }
 
+.link:focus-visible,
+.card-footer:focus-visible,
+#Galeria img:focus-visible {
+    outline: 2px solid #ffffff; 
+    outline-offset: 4px;
+}
+
 #Inicio,
 #Ofertas,
 #Galeria{
@@ -27,7 +34,7 @@ body{
     padding: 0;
     overflow: auto;
     width: 100%;
-    background-color: #FF6666;
+    background-color: #8B1A0A;
     position: fixed;
     display: flex;
     justify-content: center;
@@ -51,7 +58,6 @@ body{
 }
 
 .link:hover{
-    color: black;
     transform: translateY(-2px);
 }
 
@@ -84,7 +90,7 @@ body{
     display: block;
     margin: 0 auto 12px auto;
     border-radius: 15px;
-    background-color: #FF6666;
+    background-color: #8B1A0A;
     color: white;
     border: none;
     padding: 12px;
@@ -94,7 +100,7 @@ body{
 }
 
 .card-footer:hover{
-    background-color: #FF3333;
+    background-color: #8B1A0A;
     transform: scale(1.03);
 }
 
@@ -141,7 +147,7 @@ body{
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
-    border: 2px solid #FF6666;
+    border: 2px solid #8B1A0A;
     transition: all ease-in-out 0.5s;
 }
 
@@ -150,7 +156,7 @@ body{
 }
 
 footer {
-    background-color: #FF6666;
+    background-color: #8B1A0A;
     text-align: center;
     padding: 20px;
 }
